@@ -1,5 +1,4 @@
 import random as r
-  
 wartosci = ["A","2","3","4","5","6","7","8","9","10","J","Q","K"]
 kolory = ["♥","♠","♦","♣"]
 serca = []
@@ -29,9 +28,6 @@ class Karta:
             return f"[\033[96m{self.wartosc}{self.kolor}\033[00m]"
         return f"[\033[96m{self.wartosc} {self.kolor}\033[00m]"
 
-    def __repr__(self):
-        return self.__str__()
-
 def stworzenie_talii():
     for i in wartosci:
         for j in kolory:
@@ -49,17 +45,18 @@ def wyswietl_stos_rezerwowy(stos_r, obecna_karta_idx=0):
     if not stos_r:  
         print("[Pusty stos rezerwowy]   ", end="")
         return
+    print(f"[{len(stos_r)-obecna_karta_idx-1}]", end="   ")
     if obecna_karta_idx > -1 and obecna_karta_idx < len(stos_r):
         if obecna_karta_idx + 1 < len(stos_r):
             print("[???]", end=" ")
         elif obecna_karta_idx + 1 == len(stos_r):
             print("", end="")
         stos_r[obecna_karta_idx].zakryta = False  # odkrywa kartę
-        print(stos_r[obecna_karta_idx], end="     ")
+        print(stos_r[obecna_karta_idx], end="    ")
         if obecna_karta_idx == len(stos_r):
             print()
     elif obecna_karta_idx == -1:
-        print("[???]", end="           ")
+        print("[???]", end="     ")
 
 
 def wyswietl_stos_koncowy(kolory,kolory_listy):
