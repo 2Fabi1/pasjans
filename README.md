@@ -37,7 +37,7 @@ Wpisuj poniższe komendy, aby grać:
   **np.** `K1-5`
 
 - `E` – Zresetuj grę
-
+  
 ---
 
 ## Zawartość `board.py`
@@ -68,6 +68,7 @@ Obsługuje interakcje użytkownika oraz implementuje wszystkie możliwe ruchy:
 ## Zakończenie gry
 
 Gra kończy się automatycznie po przeniesieniu wszystkich 52 kart na stosy końcowe.
+
 ---
 
 
