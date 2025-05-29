@@ -2,8 +2,7 @@
 
 ## Wymagania
 
-- Python 3.10+
-- Brak zależności zewnętrznych
+- Brak zależności zewnętrznych - Python 3.10+
 
 ---
 
@@ -17,37 +16,32 @@ Grę należy otworzyć w terminalu obsługującym formatowanie ANSI, np. Visual 
 
 Wpisuj poniższe komendy, aby grać:
 
-- `Liczba-Liczba` – Przenieś kartę z jednej kolumny do drugiej  
-  **np.** `5-3`
+- Liczba-Liczba - Przenieś kartę z jednej kolumny do drugiej, np. 5-3
 
-- `Liczba-Liczba-Wartość` – Przenieś ciąg kart od danej wartości między kolumnami  
-  **np.** `4-7-Q`
+- Liczba-Liczba-Wartość - Przenieś ciąg kart od danej wartości między kolumnami, np. 4-7-Q
 
-- `Liczba-K` – Przenieś kartę z kolumny do stosu końcowego  
-  **np.** `2-K`
+- Liczba-K - Przenieś kartę z kolumny do stosu końcowego, np. 2-K
 
-- `R` – Dobierz nową kartę ze stosu rezerwowego
+- R - Dobierz nową kartę ze stosu rezerwowego
 
-- `R-Liczba` – Przenieś kartę z rezerwy do kolumny  
-  **np.** `R-3`
+- R-Liczba - Przenieś kartę z rezerwy do kolumny np. R-3 
 
-- `R-K` – Przenieś kartę z rezerwy do stosu końcowego
+- R-K - Przenieś kartę z rezerwy do stosu końcowego 
 
-- `KX-Liczba` – Przenieś kartę ze stosu końcowego `X` do kolumny  
-  **np.** `K1-5`
+- KX-Liczba - Przenieś kartę ze stosu końcowego `X` do kolumny, np. K1-5 
 
-- `E` – Zresetuj grę
+- E - Zresetuj grę
   
 ---
 
 ## Zawartość `board.py`
 
-- `Karta` – Klasa reprezentująca pojedynczą kartę (wartość, kolor, zakryta/odkryta)
-- `stworzenie_talii()` – Inicjalizacja potasowanej talii, kolumn i stosu rezerwowego
-- `wyswietl_stos_rezerwowy()` – Rysuje stos rezerwowy w terminalu
-- `wyswietl_stos_koncowy()` – Rysuje stosy końcowe w terminalu
-- `wyswietl_plansze()` – Rysuje planszę w terminalu (kolumny)
-- `wyswietl_plansze_gry()` – Rysuje całą planszę w terminalu (kolumny + stosy)
+- Karta - Klasa representująca pojedynczą kartę (kolor, zakryta/odkryta, wartość)
+- stworzenie_talii() - Inicjalizacja potasowanej talii, kolumn i stosu rezerwowego
+- wyswietl_stos_rezerwowy() - Rysuje stos rezerwowy w terminalu Rysuje Stosy
+- wyswietl_stos_koncowy() - 
+- wyswietl_plansze() – Rysuje planszę w terminalu (kolumny)
+- wyswietl_plansze_gry() – Rysuje całą planszę w terminalu (kolumny + stosy)
 
 ---
 
