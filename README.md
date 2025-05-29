@@ -46,6 +46,7 @@ Obsługuje interakcje użytkownika oraz implementuje wszystkie możliwe ruchy:
 - przetasuj_stos_rezerwowy(...) – Tasuje zużyty stos rezerwowy
 - win(...) – Sprawdza warunek zwycięstwa
 - wypisz_bledna_konstrukcje() – Pokazuje poprawne formaty komend
+- wyczysc_konsole() - Czyści konsolę używając formatowania ANSI
 
 ## Zakończenie gry
 
