@@ -1,16 +1,5 @@
 ---
 
-## Struktura projektu
-
-```
-.
-├── board.py        # Logika gry, klasa Karta, funkcje do tworzenia i wyświetlania planszy
-├── main.py         # Główna pętla gry, obsługa komend użytkownika
-└── README.md       # Dokumentacja
-```
-
----
-
 ## Wymagania
 
 - Python 3.10+
