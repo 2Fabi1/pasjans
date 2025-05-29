@@ -13,7 +13,7 @@ Grę należy otworzyć w terminalu obsługującym formatowanie ANSI, np. Visual 
 
 ---
 
-## Zasady i komendy
+## Komendy
 
 Wpisuj poniższe komendy, aby grać:
 
@@ -45,7 +45,7 @@ Wpisuj poniższe komendy, aby grać:
 - `Karta` – Klasa reprezentująca pojedynczą kartę (wartość, kolor, zakryta/odkryta)
 - `stworzenie_talii()` – Inicjalizacja potasowanej talii, kolumn i stosu rezerwowego
 - `wyswietl_stos_rezerwowy()` – Rysuje stos rezerwowy w terminalu
-  `wyswietl_stos_koncowy()` – Rysuje stosy końcowe w terminalu
+- `wyswietl_stos_koncowy()` – Rysuje stosy końcowe w terminalu
 - `wyswietl_plansze()` – Rysuje planszę w terminalu (kolumny)
 - `wyswietl_plansze_gry()` – Rysuje całą planszę w terminalu (kolumny + stosy)
 
