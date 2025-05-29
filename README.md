@@ -1,7 +1,3 @@
-# Pasjans (Solitaire) – Gra tekstowa w Pythonie
-
-Gra pasjans (klasyczny Solitaire) zaimplementowana w czystym Pythonie. W pełni tekstowy interfejs w terminalu, bez użycia zewnętrznych bibliotek graficznych.
-
 ---
 
 ## Struktura projektu
